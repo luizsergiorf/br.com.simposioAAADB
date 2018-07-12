@@ -7,9 +7,9 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="mobile-web-app-capable" content="yes">
-    <link rel="icon" href="../visao/img/favicon.png" sizes="16x15">
+    <link rel="icon" href="../../visao/img/favicon.png" sizes="16x15">
 
-    <link rel="stylesheet" href="../visao/A.bootstrap%2c%2c_css%2c%2c_bootstrap.min.css%2bfont-awesome%2c%2c_css%2c%2c_font-awesome.min.css%2bcss%2c%2c_template-verde.css%2bcss%2c%2c_index.css%2cMcc.bsgLJjNaRk.css.pagespeed.cf._qO0j0XY68.css"
+    <link rel="stylesheet" href="../../visao/A.bootstrap%2c%2c_css%2c%2c_bootstrap.min.css%2bfont-awesome%2c%2c_css%2c%2c_font-awesome.min.css%2bcss%2c%2c_template-verde.css%2bcss%2c%2c_index.css%2cMcc.bsgLJjNaRk.css.pagespeed.cf._qO0j0XY68.css"
         type='text/css' />
 
 
@@ -27,9 +27,6 @@
             display: none
         }
 
-        img {
-            vertical-align: middle;
-        }
     </style>
 
     <!--[if lt IE 10]><link rel="stylesheet" href="/visao/css/ie.css" /><![endif]-->
@@ -43,62 +40,47 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,800,700' rel='stylesheet' type='text/css'>
 
     <!-- CSS da Bugware-->
-    <link rel="stylesheet" type="text/css" href="../visao/css/styleBugware.css">
-    <link rel="stylesheet" type="text/css" href="../visao/fonts/iconic/css/material-design-iconic-font.min.css">
-    <link rel="stylesheet" type="text/css" href="../visao/css/css/fontawesome-all.css">
+    <link rel="stylesheet" type="text/css" href="../../visao/css/styleBugware.css">
+    <link rel="stylesheet" type="text/css" href="../../visao/fonts/iconic/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" type="text/css" href="../../visao/css/css/fontawesome-all.css">
 
 </head>
 
-<body>
+<body class="header-is-fixed">
     <div class="layout">
-        <header>
-            <div class="container">
-                <div class="row-fluid">
-                    <div id="logo" class="span8">
-                        <!-- <div id="logo" class="span8 big"> <div id="logo" class="span8 small"> -->
-                        <a href="../index.html" title="Página inicial do site do IFTM">
-                            <span class="portal-title-1">IFTM - Campus Avançado Uberaba Parque Tecnológico</span>
-                            <h1 class="portal-title corto">TecnArte</h1>
-                            <span class="portal-description">Evento de Arte, Esporte e Tecnologia</span>
-                        </a>
-                    </div>
-                    <div class="span4">
-                        <div id="social-icons" class="row">
-                            <img class="logo" alt="foto TecnArte 2017" src="../visao/img/logo_inovatec.png">
+            <header class="main-header fixed">
+                    <div class="container">
+                        <!-- Logo -->
+                        <div class="logo">
+                            <div>
+                                <a href="#">
+                                    <img src="../../visao/img/logo.svg" alt="ResponsiveHeader">
+                                </a>
+                            </div>
                         </div>
+                        <!-- Navigation -->
+                        <nav class="navigation">
+                            <i class="btn-menu fas fa-bars"></i>
+                            <ol class="nav-links">
+                                <li>
+                                    <a href="#">Início</a>
+                                </li>
+                                <li>
+                                    <a class="ativo"  href="#">Palestras</a>
+                                </li>
+                                <li>
+                                    <a href="#">Submissão de trabalho</a>
+                                </li>
+                                <li>
+                                    <a href="#">Cronograma</a>
+                                </li>
+                                <li>
+                                    <a href="#">Inscrições</a>
+                                </li>
+                            </ol>
+                        </nav>
                     </div>
-                    <!-- fim .span4 -->
-                </div>
-                <!-- fim .row-fluid -->
-            </div>
-            <!-- fim div.container -->
-            <div class="menu">
-                <div class="container">
-                    <div class="topnav" id="myTopnav">
-                        <a href="../index.html">Home</a>
-                        <a href="Minicursos.html">Minicursos e Oficinas</a>
-                        <a class="active" href="Torneio_Campeonatos.html">Torneio, Gincana e Campeonatos</a>
-                        <a href="MesaRedonda.html">Mesa Redonda</a>
-                        <a href="ShowDeTalentos.html">Show de Talentos</a>
-                        <a class="right" href="Incricao.html">Inscrições</a>
-                        <a class="right" href="Cronograma.html">Cronograma</a>
-                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                            <i class="fas fa-bars"></i>
-                        </a>
-                    </div>
-                    <script>
-                        function myFunction() {
-                            var x = document.getElementById("myTopnav");
-                            if (x.className === "topnav") {
-                                x.className += " responsive";
-                            } else {
-                                x.className = "topnav";
-                            }
-                        }
-                    </script>
-                </div>
-            </div>
-        </header>
+                </header>
         <main>
             <div class="container">
                 <div class="row-fluid">
@@ -154,41 +136,41 @@
 
                                                 <div class="mySlides fade">
                                                     <div class="numbertext">1 / 8</div>
-                                                    <img src="../visao/img/img1_torneio.png" style="width:100%">
+                                                    <img src="../../visao/img/img1_torneio.png" style="width:100%">
                                                 </div>
 
                                                 <div class="mySlides fade">
                                                     <div class="numbertext">2 / 8</div>
-                                                    <img src="../visao/img/img2_torneio.png" style="width:100%">
+                                                    <img src="../../visao/img/img2_torneio.png" style="width:100%">
                                                 </div>
 
                                                 <div class="mySlides fade">
                                                     <div class="numbertext">3 / 8</div>
-                                                    <img src="../visao/img/img3_torneio.png" style="width:100%">
+                                                    <img src="../../visao/img/img3_torneio.png" style="width:100%">
                                                 </div>
                                                 <div class="mySlides fade">
                                                     <div class="numbertext">4 / 8</div>
-                                                    <img src="../visao/img/img4_torneio.png" style="width:100%">
+                                                    <img src="../../visao/img/img4_torneio.png" style="width:100%">
                                                 </div>
                                                 <div class="mySlides fade">
                                                     <div class="numbertext">5 / 8</div>
-                                                    <img src="../visao/img/img5_torneio.png" style="width:100%">
+                                                    <img src="../../visao/img/img5_torneio.png" style="width:100%">
                                                 </div>
 
                                                 <div class="mySlides fade">
                                                     <div class="numbertext">6 / 8</div>
-                                                    <img src="../visao/img/img6_torneio.png" style="width:100%">
+                                                    <img src="../../visao/img/img6_torneio.png" style="width:100%">
                                                 </div>
 
                                                 <div class="mySlides fade">
                                                     <div class="numbertext">7 / 8</div>
-                                                    <img src="../visao/img/img7_torneio.png" style="width:100%">
+                                                    <img src="../../visao/img/img7_torneio.png" style="width:100%">
                                                 </div>
 
                                                 <div class="mySlides fade">
                                                     <div class="numbertext">8 / 8</div>
                                                     <video controls preload="none" id="myVideo">
-                                                        <source src="../visao/img/torneio_video.mp4" type="video/mp4">
+                                                        <source src="../../visao/img/torneio_video.mp4" type="video/mp4">
                                                     </video>
                                                 </div>
 
@@ -291,7 +273,7 @@
                                             <br>
                                         </div>
                                         <div class="span6">
-                                            <img src="../visao/img/Gincana.jpg" class="img-responsive">
+                                            <img src="../../visao/img/Gincana.jpg" class="img-responsive">
                                         </div>
                                     </div>
                                     <br>
@@ -344,7 +326,7 @@
                                             </p>
                                         </div>
                                         <div class="span7">
-                                            <img class="img-responsive" src="../visao/img/Futsal.jpg">
+                                            <img class="img-responsive" src="../../visao/img/Futsal.jpg">
                                             <br>
                                             <p>
                                                 <b>SEMIFINAL</b>
@@ -397,7 +379,7 @@
                                         <div class="span7">
                                             <br>
                                             <br>
-                                            <img class="img-responsive" src="../visao/img/Volei.jpg">
+                                            <img class="img-responsive" src="../../visao/img/Volei.jpg">
                                         </div>
                                     </div>
                                     <br>
@@ -427,7 +409,7 @@
                                             <p>A competição ocorrerá nos quiosques do Câmpus Uberaba Parque Tecnológico</p>
                                         </div>
                                         <div class="span6">
-                                            <img src="../visao/img/tenis-de-mesa.jpg" class="img-responsive">
+                                            <img src="../../visao/img/tenis-de-mesa.jpg" class="img-responsive">
                                         </div>
                                     </div>
                                     <br>
@@ -458,7 +440,7 @@
                                             <br>
                                         </div>
                                         <div class="span6">
-                                            <img src="../visao/img/xadrez.jpg" class="img-responsive">
+                                            <img src="../../visao/img/xadrez.jpg" class="img-responsive">
                                         </div>
                                     </div>
                                     <br>
@@ -495,7 +477,7 @@
                                             <br>
                                         </div>
                                         <div class="span6">
-                                            <img src="../visao/img/Truco.jpg" class="img-responsive">
+                                            <img src="../../visao/img/Truco.jpg" class="img-responsive">
                                         </div>
                                     </div>
                                     <br>
@@ -541,7 +523,7 @@
                                             <p>A competição ocorrerá nos laboratórios 302 e 304 do câmpus UPT.</p>
                                         </div>
                                         <div class="span6">
-                                            <img src="../visao/img/cs.jpeg" class="img-responsive">
+                                            <img src="../../visao/img/cs.jpeg" class="img-responsive">
                                         </div>
                                     </div>
                                     <br>
@@ -576,7 +558,7 @@
                             <br>
                             <ul>
                                 <li>
-                                    <img class="img-responsive" alt="foto Inovatec 2017" src="../visao/img/realizacao_iftm.png">
+                                    <img class="img-responsive" alt="foto Inovatec 2017" src="../../visao/img/realizacao_iftm.png">
                                 </li>
                             </ul>
                         </nav>
@@ -612,6 +594,7 @@
             </div>
         </footer>
     </div>
+    <script src="../../visao/js/header.js"></script>
 </body>
 
 </html>
