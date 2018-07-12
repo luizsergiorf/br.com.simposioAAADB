@@ -35,7 +35,7 @@
 
 .main-header {
     background-color: #25354d;
-    padding: 15px 15px;
+    padding: 20px 15px;
     -webkit-transition: padding .3s;
     transition: padding .3s;
 }
@@ -82,7 +82,7 @@
     text-decoration: none !important;
     float: right;
     display: block;
-    font-size: 18px;
+    font-size: 20px;
     color: #f2f2f2;
 }
 
