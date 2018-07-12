@@ -29,12 +29,12 @@
 [ menu ]*/
 
 .ativo {
-    color: #4CAF50 !important;
-    font-weight: bold;
+    color: #232f3e !important;
+    font-weight: 900;
 }
 
 .main-header {
-    background-color: #25354d;
+    background-color: #eb6434;  
     padding: 20px 15px;
     -webkit-transition: padding .3s;
     transition: padding .3s;
@@ -83,7 +83,7 @@
     float: right;
     display: block;
     font-size: 20px;
-    color: #f2f2f2;
+    color: #ffffff;
 }
 
 .main-header .navigation>.nav-links {
@@ -102,11 +102,11 @@
 
 @media (max-width: 768px) {
     .main-header .navigation.open>.nav-links {
-        background-color: #003c65;
+        background-color: #eb6434;
         display: block;
         position: absolute;
         z-index: 999;
-        top: 54px;
+        top: 63px;
         left: 0;
         width: 100%;
     }
@@ -115,10 +115,7 @@
         display: block;
         color: #fff;
     }
-    .ativo {
-        background-color: #4CAF50 !important;
-        color: white !important;
-    }
+   
     .header-is-fixed {
         padding-top: 10px !important;
     }
