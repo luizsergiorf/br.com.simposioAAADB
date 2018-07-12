@@ -115,7 +115,7 @@
         color: #fff;
     }
     .header-is-fixed {
-        padding-top: 10px !important;
+        padding-top: 50px !important;
     }
     .main-header .navigation {
         padding-right: 35px;
@@ -186,7 +186,7 @@
 }
 
 .header-is-fixed {
-    padding-top: 50px;
+    padding-top: 90px;
 }
 
 .header-is-fixed main {
