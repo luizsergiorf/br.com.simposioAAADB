@@ -47,7 +47,6 @@
 }
 
 .main-header .logo>* {
-    
     margin: 0;
     padding: 0;
     display: block;
@@ -96,7 +95,7 @@
         font-size: 14px;
     }
     .main-header .logo {
-        max-width: none ;
+        max-width: none;
         height: 72px !important;
     }
     .main-header .logo>* {
@@ -110,7 +109,6 @@
         max-width: none;
         line-height: 72px !important;
     }
-    
 }
 
 @media (max-width: 768px) {
@@ -135,7 +133,6 @@
         padding-right: 35px;
         padding-top: 20px;
     }
-   
 }
 
 .main-header::after {
@@ -145,7 +142,6 @@
 }
 
 @media (min-width: 769px) {
-  
     .main-header .logo {
         max-width: none;
         height: 76px;
@@ -173,22 +169,6 @@
     }
     .main-header .navigation .nav-links>li a {
         color: #fff;
-    }
-    .main-header.shrink {
-        padding-top: 12.5px;
-        padding-bottom: 12.5px;
-    }
-    .main-header.shrink .logo {
-        height: 24px;
-    }
-    .main-header.shrink .logo>* {
-        line-height: 24px;
-    }
-    .main-header.shrink .logo img {
-        height: 24px;
-    }
-    .main-header.shrink .navigation {
-        line-height: 24px;
     }
 }
 
@@ -249,15 +229,13 @@ button:hover {
     border-radius: 5px;
     background: #ec5252;
     position: relative;
-    
     -webkit-transition: all 0.4s;
     -o-transition: all 0.4s;
     -moz-transition: all 0.4s;
     transition: all 0.4s;
 }
 
-
-.contact100-form-btn:hover{
+.contact100-form-btn:hover {
     background: #992337;
 }
 
