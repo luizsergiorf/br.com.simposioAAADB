@@ -34,7 +34,7 @@
 
 .main-header {
     background-color: #eb6434;
-    padding: 20px 15px;
+    padding: 3px 15px;
     -webkit-transition: padding .3s;
     transition: padding .3s;
 }
@@ -42,15 +42,12 @@
 .main-header .logo {
     float: left;
     max-width: calc(100% - (32px + 15px));
-    height: 24px;
     -webkit-transition: height .3s;
     transition: height .3s;
-    overflow: hidden;
 }
 
 .main-header .logo>* {
-    line-height: 24px;
-    font-size: 26px;
+    
     margin: 0;
     padding: 0;
     display: block;
@@ -65,10 +62,11 @@
 }
 
 .main-header .logo img {
-    height: 24px;
+    height: 51px;
     -webkit-transition: height .3s;
     transition: height .3s;
     max-width: 100%;
+    padding-top: 2px;
 }
 
 .main-header .navigation {
@@ -99,14 +97,18 @@
     }
     .main-header .logo {
         max-width: none ;
-        height: 26px !important;
+        height: 72px !important;
     }
     .main-header .logo>* {
-        line-height: 26px !important;
-        font-size: 26px !important;
+        line-height: 72px !important;
+        font-size: 72px !important;
     }
     .main-header .logo img {
-        height: 26px !important;
+        height: 72px !important;
+    }
+    .main-header .navigation {
+        max-width: none;
+        line-height: 72px !important;
     }
     
 }
@@ -131,7 +133,9 @@
     }
     .main-header .navigation {
         padding-right: 35px;
+        padding-top: 20px;
     }
+   
 }
 
 .main-header::after {
@@ -141,23 +145,21 @@
 }
 
 @media (min-width: 769px) {
-    .main-header {
-        padding: 25px 15px;
-    }
+  
     .main-header .logo {
         max-width: none;
-        height: 32px;
+        height: 76px;
     }
     .main-header .logo>* {
-        line-height: 32px;
-        font-size: 32px;
+        line-height: 76px;
+        font-size: 76px;
     }
     .main-header .logo img {
-        height: 32px;
+        height: 76px;
     }
     .main-header .navigation {
         max-width: none;
-        line-height: 32px;
+        line-height: 76px;
     }
     .main-header .navigation .btn-menu {
         display: none;
