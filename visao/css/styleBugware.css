@@ -24,6 +24,17 @@
     padding-left: 20px;
 }
 
+.ul_class2 {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.ol_class
+{
+    list-style-type: upper-alpha;
+}
+
+
 /*------------------------------------------------------------------
 [ menu ]*/
 
@@ -259,8 +270,17 @@ button:hover {
 }
 
 footer .img-responsive {
-    width: 75%;
-    margin-left: 0px;
+    width: 40%;
+    max-height: 50%;
+    border-radius: 6.5px;
+    margin-bottom: -10px;
+}
+
+footer .img-responsive2 {
+    width: 90%;
+    max-height: 95%;
+    border-radius: 6.5px;
+    padding-bottom: -40px;
 }
 
 /*------------------------------------------------------------------
