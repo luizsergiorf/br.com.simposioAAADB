@@ -397,3 +397,6 @@ a:hover {
     text-decoration: underline;
     color: #003c65;
 }
+.td_class{
+    letter-spacing: 0.0625em;
+}
