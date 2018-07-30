@@ -133,6 +133,9 @@
         padding-right: 35px;
         padding-top: 20px;
     }
+     footer .img-mrBulls {
+        width: 45% !important;
+    }
 }
 
 .main-header::after {
@@ -170,6 +173,7 @@
     .main-header .navigation .nav-links>li a {
         color: #fff;
     }
+   
 }
 
 .main-header.fixed {
@@ -262,6 +266,7 @@ footer .img-responsive {
     width: 75%;
     margin-left: 0px;
 }
+
 
 /*------------------------------------------------------------------
 Slideshow*/
@@ -396,4 +401,7 @@ a {
 a:hover {
     text-decoration: underline;
     color: #003c65;
+}
+.td_class{
+    letter-spacing: 0.0625em;
 }
