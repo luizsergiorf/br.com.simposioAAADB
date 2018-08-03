@@ -411,3 +411,7 @@ a:hover {
 .td_class{
     letter-spacing: 0.0625em;
 }
+
+.div-center{
+    text-align: center;
+}
