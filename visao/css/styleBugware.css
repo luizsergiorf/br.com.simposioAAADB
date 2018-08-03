@@ -136,6 +136,12 @@
      footer .img-mrBulls {
         width: 45% !important;
     }
+    .img-submissao{
+        display: block;
+        height: auto;
+        margin: 0 auto;
+        width: 70% !important;
+    }
 }
 
 .main-header::after {
@@ -404,4 +410,8 @@ a:hover {
 }
 .td_class{
     letter-spacing: 0.0625em;
+}
+
+.div-center{
+    text-align: center;
 }
