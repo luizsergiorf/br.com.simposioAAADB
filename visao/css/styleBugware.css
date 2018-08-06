@@ -404,7 +404,7 @@ a {
     color: #000000;
 }
 
-a:hover {
+header a:hover {
     text-decoration: underline;
     color: #003c65;
 }
